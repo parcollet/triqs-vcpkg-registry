@@ -2,7 +2,7 @@ vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO parcollet/itertools
         REF f3f8f8a
-        SHA512 92b6a2322a4da284f8d6e5ad86a38ed94cf7fa817ccebe83b62fb3198d3dc0d9684bb4a38120a87a9062a889f26db6d323066dbfa5b2daaac5380b5b0c2bb63a
+        SHA512 5958e88df9ea49dfb7d135fb7da6da683253ceda84d1de9fa39a8ef249d31893ff01485c2a771d3f18bdec8fcda8c5ffb28646aed30b07d700b51df8efa94726
         HEAD_REF unstable
 )
 
