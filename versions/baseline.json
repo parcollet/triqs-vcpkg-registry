@@ -1,5 +1,9 @@
 {
   "default": {
+    "itertools": {
+      "baseline": "1.2.0",
+      "port-version": 0
+    },
     "nda": {
       "baseline": "1.2.0",
       "port-version": 0
