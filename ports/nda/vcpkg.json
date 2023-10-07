@@ -1,0 +1,9 @@
+{
+	"name": "nda",
+	"version": "1.2.0",
+	"description": "nda library",
+	"homepage": "https://github.com/triqs/nda",
+	"dependencies": [
+	
+	]
+}
