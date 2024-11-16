@@ -1,6 +1,7 @@
 {
   "name": "itertools",
   "version": "1.2.0",
+  "port": 2, 
   "description": "itertools library",
   "homepage": "https://github.com/triqs/itertools"
 }
