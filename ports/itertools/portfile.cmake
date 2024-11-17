@@ -6,7 +6,7 @@ set(VCPKG_POLICY_SKIP_LIB_CMAKE_MERGE_CHECK enabled)
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO parcollet/itertools
-        REF 77be9d50c713a8434e6fa8ca8edcc76885dfd463
+        REF 1.2.x
         SHA512 c8a6b45fa51a1ddb44de54edaad956b8adffe1c5326356852032dc19c0fde3f96ee20464be7544b6a586d7305d082e8841444172e5e453c1a75053f36b3d91ea
         HEAD_REF unstable
 )
