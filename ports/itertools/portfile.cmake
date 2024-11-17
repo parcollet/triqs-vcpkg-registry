@@ -4,6 +4,7 @@ set(VCPKG_POLICY_SKIP_MISPLACED_CMAKE_FILES_CHECK enabled)
 set(VCPKG_POLICY_SKIP_LIB_CMAKE_MERGE_CHECK enabled)
 set(VCPKG_POLICY_SKIP_ABSOLUTE_PATHS_CHECK enabled)
 
+# curl -L https://github.com/parcollet/itertools/archive/1.2.x.tar.gz -o tmp && vcpkg hash tmp
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO parcollet/itertools
