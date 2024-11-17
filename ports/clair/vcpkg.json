@@ -1,0 +1,16 @@
+{
+  "name": "clair",
+  "version": "0.2",
+  "description": "clair plugin",
+  "homepage": "https://github.com/flatironinstitute/clair",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
