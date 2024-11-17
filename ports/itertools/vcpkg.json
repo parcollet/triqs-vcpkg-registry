@@ -1,7 +1,6 @@
 {
   "name": "itertools",
   "version": "1.2.0",
-  "port-version": 1,
   "description": "itertools library",
   "homepage": "https://github.com/triqs/itertools",
   "dependencies": [
