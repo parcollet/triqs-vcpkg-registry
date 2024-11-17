@@ -5,6 +5,6 @@ git ci -m "update port and version"
 git push
 git rev-parse HEAD
 pushd ~/vcpkg
-vcpkg x-update-baseline
+./vcpkg x-update-baseline
 popd
 
