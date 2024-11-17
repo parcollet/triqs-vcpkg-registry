@@ -4,7 +4,7 @@
   "description": "clair plugin",
   "homepage": "https://github.com/flatironinstitute/clair",
   "dependencies": [
-    "fmt", 
+    "fmt",
     {
       "name": "vcpkg-cmake",
       "host": true
