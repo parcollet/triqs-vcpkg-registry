@@ -4,8 +4,6 @@
   "port-version": 1,
   "description": "itertools library",
   "homepage": "https://github.com/triqs/itertools",
-  
-  
   "dependencies": [
     {
       "name": "vcpkg-cmake",
