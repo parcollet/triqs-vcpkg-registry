@@ -1,6 +1,19 @@
 {
   "name": "itertools",
   "version": "1.2.0",
+  "port-version": 1,
   "description": "itertools library",
-  "homepage": "https://github.com/triqs/itertools"
+  "homepage": "https://github.com/triqs/itertools",
+  
+  
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }
