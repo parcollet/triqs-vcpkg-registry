@@ -1,10 +1,10 @@
-set(VCPKG_POLICY_ALLOW_DEBUG_INCLUDE enabled)
-set(VCPKG_POLICY_ALLOW_DEBUG_SHARE enabled)
-set(VCPKG_POLICY_SKIP_MISPLACED_CMAKE_FILES_CHECK enabled)
-set(VCPKG_POLICY_SKIP_LIB_CMAKE_MERGE_CHECK enabled)
-set(VCPKG_POLICY_SKIP_ABSOLUTE_PATHS_CHECK enabled)
+#include("${CMAKE_CURRENT_LIST_DIR}/common.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/../_common.cmake")
 
 # curl -L https://github.com/flatironinstitute/c2py/archive/aa1cd746204d3d1c748b733eb8daa1d2dab0163c.tar.gz -o tmp && vcpkg hash tmp
+# Should write a function that computes the SHA for debug purpose ? 
+# https://github.com/${REPO}/archive/${REF}.tar.gz
+
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO flatironinstitute/c2py
