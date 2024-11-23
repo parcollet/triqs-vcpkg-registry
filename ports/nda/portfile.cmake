@@ -10,11 +10,14 @@ set(VCPKG_POLICY_SKIP_ABSOLUTE_PATHS_CHECK enabled)
 # Should write a function that computes the SHA for debug purpose ? 
 # https://github.com/${REPO}/archive/${REF}.tar.gz
 
+
+# curl -L https://github.com/parcollet/nda1/archive/vcpkg.tar.gz -o tmp && vcpkg hash tmp && rm tmp
+
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO parcollet/nda1
         REF vcpkg
-        SHA512 0
+        SHA512 1ddb35a2ac1bcd3367452ce9ab8c840d468222ef8b6b03f705976946f872a37fd2d4d283b5f6ff73d3be3ee007ab10e862305a2067b587d7d7818994a90cf185
         HEAD_REF vcpkg
 )
 
