@@ -5,8 +5,9 @@
   "homepage": "https://github.com/triqs/nda",
   "dependencies": [
     "fmt",
-    "h5", "mpi", "itertools",
-
+    "h5",
+    "itertools",
+    "mpi",
     {
       "name": "vcpkg-cmake",
       "host": true
