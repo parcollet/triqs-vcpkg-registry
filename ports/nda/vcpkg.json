@@ -5,7 +5,6 @@
   "homepage": "https://github.com/triqs/nda",
   "dependencies": [
     "fmt",
-    "h5",
     "itertools",
     "mpi",
     {
