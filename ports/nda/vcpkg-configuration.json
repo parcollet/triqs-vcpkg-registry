@@ -1,0 +1,21 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "435a9415ca61939ee0382f703009c440a8eae273",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+
+  "registries": [
+    {
+      "kind": "git",
+      "baseline": "0d525d1719a8fb2a339ba98da748fce6068aee43",
+      "repository": "https://github.com/parcollet/triqs-vcpkg-registry",
+      "packages": [
+        "h5",
+        "mpi",
+	"itertools"
+      ]
+    }
+  ]
+}
+
